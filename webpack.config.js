@@ -10,11 +10,11 @@ module.exports = {
     rules: [
       {
         test: /.jsx?$/, // Tìm các file .js và .jsx
-        exclude: /node_modules/,
+        exclude: /node_modules/,  
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-react']
+            presets: ['@babel/preset-env', '@babel/preset-react'] // Added @babel/preset-env
           }
         }
       }
