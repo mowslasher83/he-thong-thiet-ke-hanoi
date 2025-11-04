@@ -1,0 +1,24 @@
+{
+  "name": "he-thong-thiet-ke-hanoi",
+  "version": "1.0.0",
+  "description": "Hệ thống thiết kế UI cho sản phẩm số tại Việt Nam.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/he-thong-thiet-ke-hanoi.git"
+  },
+  "author": "Tên của bạn",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
