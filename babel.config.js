@@ -3,7 +3,7 @@ module.exports = {
   presets: [
     '@babel/preset-env',
     // Transform JSX syntax for React
-    '@babel/preset-react',
+    '@babel/preset-react'
     // Provide TypeScript support
     '@babel/preset-typescript'
   ]
