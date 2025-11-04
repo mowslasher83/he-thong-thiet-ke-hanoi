@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/username/he-thong-thiet-ke-hanoi.git"
   },
-  "author": "Your Name Here",
+  "author": "John Doe",
   "license": "MIT",
   "dependencies": {
     "react": "^18.0.0",
